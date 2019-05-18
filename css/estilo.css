@@ -1,3 +1,33 @@
-h1, h2, h3, h4 {
-    background-color: lightcoral;;
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4{
+    background-color: #bce3f0;
+}
+    
+.container {
+    width: 80%;
+    margin: auto;
+}
+    
+.menu {
+    background-color: #0b6d8d;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-bottom: 20px;  
+}
+
+.menu a {
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;    
+}
+
+
+.menu ul li {
+    margin: 0;  
 }
