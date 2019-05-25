@@ -7,15 +7,15 @@ h1, h2, h3, h4{
 }
     
 .container {
-    width: 80%;
+    width: 80%; 
     margin: auto;
 }
     
 .menu {
-    background-color: #0b6d8d;
+    background: #0b6d8d url("../menubg-blue.png") repeat-x;
     padding-top: 20px;
-    padding-left: 0;
     padding-bottom: 20px;  
+    font-size: 17px;
 }
 
 .menu a {
@@ -25,9 +25,21 @@ h1, h2, h3, h4{
 .menu li {
     display: inline-block;
     list-style: none;    
+    padding: 0; 
+    border-left: 1px solid #258FC1; 
+     
 }
 
+li:hover {
+    background-color: #06485e;; 
+}
 
-.menu ul li {
+.menu ul {
     margin: 0;  
+    padding: 0;
 }
+.img  {
+    text-align: center;
+
+}
+
